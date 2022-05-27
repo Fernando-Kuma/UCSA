@@ -1,0 +1,70 @@
+/*-- ============================================================== 
+ Diseño del pop
+ ============================================================== */
+.popupview {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999;    
+}
+.popupview:target {
+    visibility: visible;
+    opacity: 1;
+}
+#popupBody{
+    width: 100%;
+    max-width: 1000px;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #CCC;
+    background: #FFF;
+    position: relative;
+    display: flex;
+    margin: 2% auto;    
+    /*
+    height: 500px;
+    position: relative;
+    display: flex;
+    background: white;
+    visibility: hidden;
+    top: -80%;
+    left: -80%;
+    transform: rotate(90deg) translate(-150%, 230%);
+    transition: all 600ms;*/
+}
+
+}
+#cerrar{
+    /*position: absolute;
+    
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F00;*/
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    padding: 20px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    line-height: 10px;
+}
+
+.imgs-pop{
+    width: 40%;
+    padding: 20px;
+}
+
+.container-text-pop{
+    width: 60%;
+    padding: 20px;
+
+}
+
